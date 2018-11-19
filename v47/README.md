@@ -86,9 +86,9 @@ tal = 56
 # Skriv ut till konsolen
 print(tal)
 ```
-Testa kopiera in koden ovan till repl.it och klicka på run.
-<img src="https://gyazo.com/3daf509796f595bd2a38422aac7340ba.png" width="400" height="200" /><br>
 
+Testa själv att kopiera in koden ovan till repl.it och klicka på run för att se vad som händer.<br>
+<img src="https://gyazo.com/3daf509796f595bd2a38422aac7340ba.png" width="400" height="200" /><br>
 
 <hr>
 
