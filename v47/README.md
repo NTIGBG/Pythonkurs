@@ -104,10 +104,12 @@ Operator | Räknesätt | Exempel | Värde
 \+ | addition| tal1 = 2 \+ 2 | 4
 \- | subtraktion| tal2 = 5 \- 8 | -3
 \* | multiplikation| tal3 = 2 \* 3 | 6
-\/ | division| tal4 = 15 \/ 2 | 7.5
-\% | modulus (rest)| tal5 = 8 \% 3 |   2
+/ | division| tal4 = 15 / 2 | 7.5
+% | modulus (rest)| tal5 = 8 % 3 |   2
 \*\* | upphöjt till | tal6 = 2 \*\* 3  | 8
-\/\/ | heltalsdivision | tal7 = 15 \/\/ 2 | 7
+// | heltalsdivision | tal7 = 15 // 2 | 7
 
 **Observera att heltalsdivision räknar ut kvoten och sedan avrundar nedåt till närmsta heltal.**
 
+Här har jag förberett ett exempel med räkneoperatorer som ni kan leka lite med:<br>
+<iframe height="400px" width="100%" src="https://repl.it/@JoakimOhlsson/Rakneoperatorer?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
