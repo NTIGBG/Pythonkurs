@@ -118,10 +118,11 @@ Om ni inte märkt det redan så håller Python koll på de olika prioriteringar 
 3. Multiplikation,division
 4. Addition,subtraktion
 
-Datorn räknar alltid rätt och det är därför viktigt att du skriver exakt det du vill att datorn ska utföra.<br>
+Datorn räknar alltid rätt och det är därför viktigt att du skriver exakt det du vill att datorn ska utföra. 
 Man kan självklart applicera parenteser på olika räknesätt och variabler för att öka prioriteringen enligt ordningen ovan.
 
 Testa nu själv att beräkna och skriva ut följande uttryck: <br>
 <img src="https://gyazo.com/832acc0a085b31743eaab595b5c80d8b.png" width="150" height="100" /><br>
 
-# for-loop
+# Genomgång 
+Innehållet här fylls i senare.
