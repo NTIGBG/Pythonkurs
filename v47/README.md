@@ -109,5 +109,19 @@ Operator | Räknesätt | Exempel | Värde
 
 **Observera att heltalsdivision räknar ut kvoten och sedan avrundar nedåt till närmsta heltal.**
 
-Här har jag förberett ett exempel med räkneoperatorer som ni kan leka lite med:<br>
+Här har jag förberett ett exempel med räkneoperatorer som ni kan kolla på och leka lite med: *Testa gärna att blanda olika räknesätt på samma rad* <br>
 <iframe height="400px" width="100%" src="https://repl.it/@JoakimOhlsson/Rakneoperatorer?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+Om ni inte märkt det redan så håller Python koll på de olika prioriteringar som räknesätten har. Dvs:<br>
+1. Parenteser
+2. Potenser
+3. Multiplikation,division
+4. Addition,subtraktion
+
+Datorn räknar alltid rätt och det är därför viktigt att du skriver exakt det du vill att datorn ska utföra.<br>
+Man kan självklart applicera parenteser på olika räknesätt och variabler för att öka prioriteringen enligt ordningen ovan.
+
+Testa nu själv att beräkna och skriva ut följande uttryck: <br>
+<img src="https://gyazo.com/832acc0a085b31743eaab595b5c80d8b.png" width="150" height="100" /><br>
+
+# for-loop
