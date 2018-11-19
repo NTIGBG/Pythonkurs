@@ -93,3 +93,16 @@ Testa själv att kopiera in koden ovan till repl.it och klicka på run för att 
 <hr>
 
 # Räkneoperatorer
+
+## Aritmetiska operatorer
+Operator | Räknesätt | Exempel | Värde
+:---------:|:-----------:|:---------:|:-----:
+\+ | addition| tal1 = 2 \+ 2 | 4
+\- | subtraktion| tal2 = 5 \- 8 | -3
+\* | multiplikation| tal3 = 2 \* 3 | 6
+\/ | division| tal4 = 15 \/ 2 | 7.5
+\% | modulus (rest)| tal5 = 8 \% 3 |   2
+\*\* | upphöjt till | tal6 = 2 \*\* 3  | 8
+\/\/ | heltalsdivision | tal7 = 15 \/\/ 2 | 7
+**Observera att heltalsdivision räknar ut kvoten och sedan avrundar nedåt till närmsta heltal.**
+
