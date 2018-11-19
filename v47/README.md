@@ -28,6 +28,8 @@ Men innan vi börjar koda så måste vi fixa lite saker först. Scrolla ner till
 
 5. Bra! Nu kan vi börja programmera på riktigt!
 
+<hr>
+
 # Python - Variabler
 
 Det första vi ska kolla på är variabler. Variabler inom programmering används för att lagra värden. 
@@ -45,7 +47,7 @@ TAL3
 _4
 __Tal5
 ```
-* Ogiltiga variabel:
+* Ogiltiga variabelnamn:
 ```
 tal-1
 tal.2
@@ -53,15 +55,15 @@ tal.2
 tal?
 $tal5
 ```
-*Man kan även använda åäö i sina variabelnamn, men det är inte att rekommendera.*
+*Man kan även använda åäö i sina variabelnamn, men det är inte att rekommendera då det ibland kan ställa till problem.*
 
 **(!)** <br>
 Viktigt att tänka på när vi börjar koda är att allting vi skriver är i Python case-sensetive, vilket innebär att språket är känsligt på om vi använder stora eller små bokstäver. <br>
 Det innebär i praktiken att variablerna ```tal1``` och ```Tal1``` behandlas helt olika.
+<br>
 
 
-
-Syftet med variabler är ju att ge dem värden och detta gör vi med en tilldelningsoperatorn "=".<br>
+Syftet med variabler är, som tidigare nämnt, att ge dem olika värden och detta gör vi med tilldelningsoperatorn "=".<br>
 Exempel:
 ```python
 tal1 = 501
@@ -70,3 +72,9 @@ TAL3 = 809
 _4 = 50505
 __Tal5 = 6
 ```
+
+<hr>
+
+# Räkneoperatorer
+
+
