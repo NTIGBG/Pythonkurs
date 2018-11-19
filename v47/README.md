@@ -24,13 +24,13 @@ Men innan vi börjar koda så måste vi fixa lite saker först. Scrolla ner till
 <img src="https://gyazo.com/21bfbf4e50428892d4a733e2112baf99.png" width="500" height="200" /><br>
 
 4. Nu borde du se denna vy, om allting gått rätt till.<br>
-<img src="https://gyazo.com/28c773fd2e6999409f4ba4a88e09c045.png" width="800" height="400" /><br>
+<img src="https://gyazo.com/28c773fd2e6999409f4ba4a88e09c045.png" width="800" height="300" /><br>
 
-5. Bra! Nu kan vi börja programmera på riktigt!
+5. Snyggt! Nu kan vi börja programmera på riktigt!
 
 <hr>
 
-# Python - Variabler
+# Variabler
 
 Det första vi ska kolla på är variabler. Variabler inom programmering används för att lagra värden. 
 Inom alla programmeringsspråk så finns det olika regler för hur man tillåts namnge variabler.
@@ -72,10 +72,24 @@ TAL3 = 809
 _4 = 50505
 __Tal5 = 6
 ```
+<br><br>
+
+Att bara skapa variabler och ge dem värden är inte så värst givande och kanske inte så roligt heller för den delen.<br>
+Men för att få lite feedback på det vi gör ska vi därför skriva ut värdena på våra variabler till konsolen.<br>
+Det gör vi med en inbyggd funktion som heter ```print()```.<br>
+Den används genom att skriva in namnet på den variabel vi vill skriva ut innanför de två parenteserna. Det kan se ut såhär:
+
+```python
+# Skapa variabel och tilldela värde
+tal = 56
+
+# Skriv ut till konsolen
+print(tal)
+```
+Testa kopiera in koden ovan till repl.it och klicka på run.
+<img src="https://gyazo.com/3daf509796f595bd2a38422aac7340ba.png" width="400" height="200" /><br>
+
 
 <hr>
 
 # Räkneoperatorer
-
-
-<iframe height="400px" width="100%" src="https://repl.it/@JoakimOhlsson/Genomgang-1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
