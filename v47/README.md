@@ -95,6 +95,10 @@ Testa själv att kopiera in koden ovan till repl.it och klicka på run för att 
 # Räkneoperatorer
 
 ## Aritmetiska operatorer
+
+För att kunna räkna så måste vi självklart använda oss utav aritmetiska operatorer. Men i Programmering så kan vi inte skriva som vi gör på papper med bråkstreck och exponenter. Vi kan bara använda oss utav vanliga tecken som finns på tangentbordet och skriva dem på en och samma rad. Därför har man fått bestämma sig för hur man ska skrva olika räknesätt i kod och även vilka räknesätt man vill ha inbyggda i olika språk. Det kan variera mellan olika språk och i språket Python finns det 7 st olika inbyggda räkneoperatorer som används vid grundläggande matematiska beräkningar.<br>
+Dessa är som följer:
+
 Operator | Räknesätt | Exempel | Värde
 :---------:|:-----------:|:---------:|:-----:
 \+ | addition| tal1 = 2 \+ 2 | 4
@@ -104,5 +108,6 @@ Operator | Räknesätt | Exempel | Värde
 \% | modulus (rest)| tal5 = 8 \% 3 |   2
 \*\* | upphöjt till | tal6 = 2 \*\* 3  | 8
 \/\/ | heltalsdivision | tal7 = 15 \/\/ 2 | 7
+
 **Observera att heltalsdivision räknar ut kvoten och sedan avrundar nedåt till närmsta heltal.**
 
