@@ -28,7 +28,45 @@ Men innan vi börjar koda så måste vi fixa lite saker först. Scrolla ner till
 
 5. Bra! Nu kan vi börja programmera på riktigt!
 
-# Python - Grundläggande syntax
+# Python - Variabler
+
+Det första vi ska kolla på är variabler. Variabler inom programmering används för att lagra värden. 
+Inom alla programmeringsspråk så finns det olika regler för hur man tillåts namnge variabler.
+I språket Python är reglerna som följer:
+* Variabelnamn får **enbart innehålla** bokstäver, siffror och "_".
+* Variabelnamn får **enbart börja** på en bokstav eller "_".
+
+Här är exempel på variabelnamn som är giltiga respektive ogiltiga:<br>
+* Giltiga variabelnamn:
+```
+tal1
+tal_2
+TAL3
+_4
+__Tal5
+```
+* Ogiltiga variabel:
+```
+tal-1
+tal.2
+3tal
+tal?
+$tal5
+```
+*Man kan även använda åäö i sina variabelnamn, men det är inte att rekommendera.*
+
+**(!)** <br>
+Viktigt att tänka på när vi börjar koda är att allting vi skriver är i Python case-sensetive, vilket innebär att språket är känsligt på om vi använder stora eller små bokstäver. <br>
+Det innebär i praktiken att variablerna ```tal1``` och ```Tal1``` behandlas helt olika.
 
 
 
+Syftet med variabler är ju att ge dem värden och detta gör vi med en tilldelningsoperatorn "=".<br>
+Exempel:
+```python
+tal1 = 501
+tal_2 = 26
+TAL3 = 809
+_4 = 50505
+__Tal5 = 6
+```
