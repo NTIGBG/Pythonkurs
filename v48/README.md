@@ -102,10 +102,12 @@ print("Svar: " + str(produkt))
 <hr>
 
 # Villkor
+Genomgång
 
 
 
-
+<hr>
 
 # Avancerat
+Om vi hinner
 
