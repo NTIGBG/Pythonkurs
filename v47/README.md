@@ -124,6 +124,8 @@ Man kan självklart applicera parenteser på olika räknesätt och variabler fö
 Testa nu själv att beräkna och skriva ut följande uttryck: <br>
 <img src="https://gyazo.com/832acc0a085b31743eaab595b5c80d8b.png" width="150" height="100" /><br>
 
+<hr>
+
 # Loopar 
 
 Loopar inom programmering är ungefär precis som det låter: någonting som går runt som en loop, eller mer korrekt: en kod som körs flera gånger.<br>
