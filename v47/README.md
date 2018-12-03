@@ -124,5 +124,37 @@ Man kan självklart applicera parenteser på olika räknesätt och variabler fö
 Testa nu själv att beräkna och skriva ut följande uttryck: <br>
 <img src="https://gyazo.com/832acc0a085b31743eaab595b5c80d8b.png" width="150" height="100" /><br>
 
-# Genomgång 
-Innehållet här fylls i senare.
+# Loopar 
+
+Loopar inom programmering är ungefär precis som det låter: någonting som går runt som en loop, eller mer korrekt: en kod som körs flera gånger.<br>
+Man kan alltså med hjälp av loopar köra en bestämd sekvens av kod ett X antal gånger. Detta är väldigt fördelaktigt framförallt för att slippa skriva samma kod flera gånger men också för att beräkna 
+
+
+## For-loopar
+
+For-loopar används när man vill göra någonting ett känt antal gånger. Till exempel om man vill skriva ut alla tal från 1-10. Då vet vi att vi vill loopa 10 gånger, så då använder vi en for-loop.
+
+En for-loop i Python kan se ut såhär:
+```python
+for i in range (0,10):
+  print("hej")
+```
+Denna loop kommer att skriva ut hej till konsolen 10 gånger.<br><br>
+
+En loop i python beror alltid på en variabel och i exemplet ovan valde jag att kalla den för i.<br>
+Variabeln i kommer att variera mellan talen \[0,10). Alltså kommer i att få värdena 0 till och med 9. (Men det blir 10 unika värden eftersom vi börjar på 0).
+<br>
+Här är en for-loop skriven med variabler som förklarar lite hur allt händer ihop:
+
+```python
+firstNumber = 0
+lastNumber = 10
+for variable in range (firstNumber, lastNumber+1):
+  print(variable)
+```
+Det är viktigt med indenteringen av koden i samband med en loop. Det är nämligen den som bestämmer vilka rader kod det är som vi vill köra flera gånger. Så fort att vi tar tillbaka indenteringen så betyder det att koden innuti loppen är slut.
+
+
+## Andra typer av loopar
+
+Det är bra att veta om att det finns andra typer av loopar, men dessa kommer vi inte gå in på just nu.
